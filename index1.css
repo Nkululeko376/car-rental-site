@@ -122,6 +122,108 @@ body {
 }
 /*============END==============*/
 
+
+/*===========Header section styles===========*/
+/*============START===============*/
+.header-section {
+    
+    border-radius: 7px;
+    padding: 5px;
+    width: 97%;
+    height: 630px;
+    margin: auto;
+    background: url(images/20181206060953_Maruti-sales-Nov-2018.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: contrast(150%) saturate(120%);
+}
+
+.hero-headings {
+    padding: 3px;
+    border-radius: 5px;
+    width: 450px;
+    background-color: rgba(255, 22, 22, 0.646);
+    height: 280px;
+    color: white;
+    margin: 85px auto;
+    position: relative;
+    box-shadow: 1px 1px 10px black;
+}
+.hero-headings h1 {
+    margin: 0px;
+    text-shadow: 2px 5px 5px black;
+}
+.hero-headings p {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero-headings p span {
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.two-buttons {
+   background-color: rgba(0, 0, 0, 0.326);
+    position: absolute;
+    bottom: 10px;
+    left: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+
+.two-buttons button {
+    min-width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.two-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.584);
+    border: 3px solid red;
+}
+
+.browse-cars {
+    margin-right: 15px;
+}
+
+.logo-container1 {
+    width: 120px;
+    height: 120px;
+    border: 10px solid rgb(210, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    right: -45px;
+    animation: expanding 1.2s infinite alternate;
+    box-shadow: 2px 2px 15px black;
+}
+
+.logo-container1 img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+@keyframes expanding{
+    100%{
+        transform: scale(1.04, 1.04);
+    }
+}
+/*=============END================*/
+
+
 @media(max-width: 755px){
     .links-container a{
         font-size: 18px;
@@ -159,8 +261,74 @@ body {
         border-bottom: 3px solid black;
      }
 
-
 }
+
+@media(max-width: 590px){
+    .hero-headings {
+        width: 80%;
+        height: 280px;
+       
+    }
+
+    .logo-container1 {
+        width: 110px;
+        height: 110px;
+        top: -32px;
+        right: -50px;
+    }
+}
+
+@media(max-width: 565px){
+    .logo-container1 {
+        width: 100px;
+        height: 100px;
+        top: -48px;
+        right: -35px;
+        border: 6px solid rgb(210, 0, 0);
+    }
+
+    .two-buttons {
+        background-color: rgba(0, 0, 0, 0.326);
+        position: absolute;
+        bottom: 10px;
+        left: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+
+    .hero-headings {
+        height: 250px;
+    }
+
+    .hero-headings h1 {
+        width: 340px;
+    }
+
+    .hero-headings p {
+        font-size: 17px;
+    }
+}
+
+
+@media(max-width: 470px){
+     .logo-container1 {
+        width: 95px;
+        height: 95px;
+    }
+
+    .two-buttons button {
+        min-width: 110px;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 3px;
+        border-radius: 3px;
+    }
+}
+
+
 
 @media(max-width: 450px){
     .nav-bar {
@@ -194,6 +362,60 @@ body {
         width: 130px;
         height: 130px;
     }
+
+    .hero-headings {
+        height: 250px;
+    }
+
+    .hero-headings h1 {
+        width: 290px;
+        font-size: 28px;
+    }
+
+    .hero-headings p {
+        font-size: 16px;
+    }
+
+    .logo-container1 {
+         width: 90px;
+        height: 90px;
+    }
+}
+
+@media(max-width: 420px){
+     .two-buttons {
+        position: absolute;
+        bottom: 10px;
+        left: 9%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 7px 15px;
+    }
+}
+
+@media(max-width: 395px){
+    .two-buttons {
+        position: absolute;
+        bottom: 10px;
+        left: 11%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 12px;
+    }
+
+    .two-buttons button {
+        min-width: 100px;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 2px;
+        border-radius: 3px;
+    }
+
+    .logo-container1 {
+        display: none;
+    }
 }
 
 @media(max-width: 370px){
@@ -226,6 +448,26 @@ body {
         border: 8px solid rgb(255, 255, 255);
         width: 110px;
         height: 110px;
+    }
+
+    .hero-headings p{
+        font-size: 15px;
+    }
+
+    .hero-headings p span {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 345px){
+        .two-buttons {
+        position: absolute;
+        bottom: 10px;
+        left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 12px;
     }
 }
 
