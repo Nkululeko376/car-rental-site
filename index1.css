@@ -223,7 +223,143 @@ body {
 }
 /*=============END================*/
 
+/*=================Featured cars sections===================*/
+/*==========START========*/
+.featured-cars-main-container{
+    margin: 50px auto;
+    width: 92%;
+    padding: 5px;
+}
 
+.featured-cars-heading {
+    margin: 30px auto;
+    font-size: 25px;
+    font-weight: 700;
+    width: 50%;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 5px 5px black;
+}
+
+.featured-cars-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.featured-cars-grid i {
+    position: absolute;
+    font-size: 60px;
+    cursor: pointer;
+    z-index: 6;
+    color: rgb(255, 255, 255);
+}
+
+.featured-cars-grid i:hover {
+    font-size: 62px;
+}
+
+.prev-button {
+    left: 20px;
+}
+
+.next-button {
+    right: 20px;
+}
+
+.each-car-type {
+    width: 1150px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.inside {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    flex: none;
+    position: relative;
+}
+
+.inside img {
+    width: 92%;
+    height: 600px;
+    object-fit: cover;
+    margin: auto;
+    filter: contrast(150%) saturate(120%);
+    border-radius: 5px;
+}
+
+.inside img:hover {
+    filter: grayscale(30%);
+}
+
+
+.each-car-type::-webkit-scrollbar {
+    display: none;
+}
+
+.car-details {
+    padding: 8px;
+    position: absolute;
+    width: 45%;
+    text-align: left;
+    background-color: rgba(6, 68, 130, 0.9);
+    top: 15px;
+    left: 60px;
+    border-radius: 6px;
+}
+
+.car-model {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.car-type {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.rental-prices {
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    margin-bottom: 6px;
+}
+
+.rent-now-btn {
+    margin-bottom: 6px;
+}
+
+.rent-now-btn button {
+    padding: 4px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(210, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.rent-now-btn button:hover {
+    background-color: black;
+}
+/*===========END=========*/
+
+
+
+
+
+
+/*============================ Adding Responsiveness to all the section for better display in different screen sizes============================*/
 @media(max-width: 755px){
     .links-container a{
         font-size: 18px;
