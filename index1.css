@@ -9,7 +9,6 @@ body {
     padding: 51px 0px;
     margin: 0px;
     background-color: rgba(210, 0, 0, 0.9);
-    height: 1700px;
 }
 
 /*===============Navigation styles(all about nav=========*/
@@ -228,7 +227,9 @@ body {
 .featured-cars-main-container{
     margin: 50px auto;
     width: 92%;
-    padding: 5px;
+    padding: 10px 5px 100px;
+    border-radius: 5px;
+    
 }
 
 .featured-cars-heading {
@@ -242,10 +243,16 @@ body {
 }
 
 .featured-cars-grid {
+    padding: 200px 10px;
     display: flex;
+    border-radius: 6px;
     justify-content: center;
     align-items: center;
     position: relative;
+    background-color: rgb(18, 37, 57);
+    border-top: 25px solid red;
+    border-bottom: 25px solid red;
+    
 }
 
 .featured-cars-grid i {
@@ -269,23 +276,36 @@ body {
 }
 
 .each-car-type {
+    padding: 80px 0px;
     width: 1150px;
     display: flex;
+    border-radius: 5px;
     overflow-x: scroll;
+    background-color: red;
+    box-shadow: 2px 2px 1px rgb(67, 67, 67);
 }
 
 .inside {
     width: 100%;
-    display: grid;
-    grid-template-columns: auto;
-    text-align: center;
     flex: none;
+    display: flex;
     position: relative;
 }
 
+.inside span {
+    
+    width: 55%;
+    height: 300px;
+    
+}
+
+.inside span img {
+    width: 100%;
+    height: 100%;
+}
+
 .inside img {
-    width: 92%;
-    height: 600px;
+    
     object-fit: cover;
     margin: auto;
     filter: contrast(150%) saturate(120%);
@@ -303,13 +323,13 @@ body {
 
 .car-details {
     padding: 8px;
-    position: absolute;
-    width: 45%;
+    width: 35%;
+    height: fit-content;
+    margin-left: 20px;
     text-align: left;
     background-color: rgba(6, 68, 130, 0.9);
-    top: 15px;
-    left: 60px;
     border-radius: 6px;
+    
 }
 
 .car-model {
@@ -353,6 +373,198 @@ body {
     background-color: black;
 }
 /*===========END=========*/
+
+
+
+/*=================Search Form styles==================*/
+/*=====================START======================*/
+.search-car-form {
+    width: 90%;
+    height: 350px;
+    margin: 250px auto 0px;
+    padding: 2px 2px 22px;
+    position: relative;
+    background-color: rgb(18, 37, 57);
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+    height: 220px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-top: 25px solid red;
+    border-bottom: 25px solid red;
+} 
+
+.our-offers {
+    flex: 1;
+    margin-left: 15px;
+    padding: 10px;
+    
+}
+
+.offer-discount {
+    
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.other-offers {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.other-offers-inside {
+    color: red;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.other-offers-inside span {
+    font-weight: 600;
+    color: white;
+}
+
+.deco-img {
+    width: 350px;
+    height: 234px;
+    
+}
+
+.deco-img img {
+    width: 100%;
+    height: 90%;
+    height: fit-content;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 75%;
+    border-bottom-left-radius: 70%;
+    border-top-left-radius: 5px;
+}
+
+
+.form {
+    width: 80%;
+    height: fit-content;
+    margin: -6px auto 10px;
+    background-color: rgb(18, 37, 57);
+    border-radius: 2px;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+    border-top: 0.5px solid lightgray;
+    border-bottom: 25px solid red;
+}
+
+hr {
+    margin: 3px;
+    background-color: red;
+}
+
+.form button {
+    margin-left: 24px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 2px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(210, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-content {
+    display: flex;
+    border-radius: 5px;
+    padding: 50px 20px 20px;
+    height: fit-content;
+}
+
+.div11 {
+    width: 180px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.div11:hover {
+    border: 1px solid white;
+}
+
+.div11 label {
+    font-size: 15px;
+    font-weight: 600;
+    color: red;
+}
+
+.div11 option {
+    font-size: 15px;
+}
+
+.div11 select {
+    font-size: 15px;
+    height: 30px;
+    padding-left: 7px;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.984);
+    cursor: pointer;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 3px;
+}
+
+.div11 input {
+    font-size: 15px;
+    height: 28px;
+    padding-left: 7px;
+    color: red;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.pick-up-container {
+    
+}
+
+.drop-off-container {
+    
+}
+
+.pick-up-date {
+    
+}
+
+.return-date {
+    
+}
+
+.type-of-car {
+    
+}
+
+.search-car-form button {
+    padding: 3px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    margin-top: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search-car-form button:hover {
+    background-color: rgba(210, 0, 0, 0.747);
+}
+/*=====================END=========================*/
 
 
 
