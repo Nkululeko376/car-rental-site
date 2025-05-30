@@ -624,7 +624,162 @@ hr {
 /*===================END==================*/
 
 
+/*==================About the company all styles==================*/
+/*===================START==================*/
+.about-company-main-section {
+    border-radius: 5px;
+    padding: 50px 10px;
+    width: 92%;
+    margin: 50px auto;
+    background-color: rgb(18, 37, 57);
+    border-bottom: 25px solid red;
+    border-top: 25px solid red;
+}
 
+.about-company-heading {
+    /*border: 2px solid black;*/
+    width: 350px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+}
+
+.our-story-main {
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+}
+
+.customer-img {
+    /*border: 3px solid blue;*/
+    width: 300px;
+    margin-right: 10px;
+}
+
+.customer-img img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.story-details {
+    /*border: 3px solid blue;*/
+    width: 70%;
+}
+
+.intro-title {
+    /*border: 2px solid black;*/
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    padding: 4px;
+    text-decoration: underline;
+}
+
+.about-us-info {
+    /*border: 2px solid green;*/
+    padding: 4px;
+    font-size: 15px;
+    color: red;
+}
+
+.about-us-info span {
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+
+.why-choose-us-main-container {
+    /*border: 3px solid white;*/
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.why-choose-us-heading {
+    /*border: 2px solid black;*/
+    padding: 2px;
+    margin: 5px;
+    width: 300px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+
+.our-advantages-container {
+    /*border: 3px solid green;*/
+    padding: 5px;
+}
+
+.our-advantages-container div {
+    /*border: 2px solid yellow;*/
+    padding-left: 25px;
+    font-size: 16px;
+    color: red;
+}
+
+.our-advantages-container div i {
+    font-size: 17px;
+    color: rgb(24, 244, 24);
+    font-weight: 700;
+}
+
+.our-team-container {
+    /*border: 4px solid blueviolet;*/
+    margin: 10px -12px;
+    background-color: red;
+    padding: 50px 4px;
+}
+
+.team-heading {
+    /*border: 2px solid blue;*/
+    width: 250px;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.team-grid {
+    /*border: 2px solid white;*/
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 8px;
+}
+
+.member1 {
+    /*border: 2px solid black;*/
+    
+}
+
+.member1-img {
+    /*border: 2px solid green;*/
+    width: 100%;
+}
+
+.member1-img img {
+    width: 100%;
+    height: 150px;       
+    object-fit: cover; 
+    border-radius: 3px;
+}
+.member-name-title {
+    /*border: 2px solid yellow;*/
+    color: rgb(7, 24, 41);
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 50px;
+    overflow: hidden;
+}
+
+.member-description {
+    /*border: 2px solid white;*/
+    font-size: 13px;
+    color: white;
+}
+/*===================END==================*/
 
 
 
