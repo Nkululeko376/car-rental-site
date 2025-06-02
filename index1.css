@@ -41,7 +41,7 @@ body {
 }
 
 .logo-container {
-    border: 8px solid rgb(255, 255, 255);
+    border: 8px solid rgb(18, 37, 57);
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -81,20 +81,21 @@ body {
 }
 
 .links-container {
-    /*
-        border: 3px solid blue;
-    */
+    
+        border: 4px solid blue;
+    
     border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     /**/
-    padding: 230px 0px;
+    padding: 210px 0px;
     background-color: rgb(210, 0, 0);
     transform: translate(0%, -50%) scale(0.1, 0.2);
     visibility: hidden;
     transition: transform 0.9s;
-    position: absolute;
+    position: fixed;
+    top: 0;
     left: 1px;
     right: 1px;
     z-index: 9;
@@ -201,7 +202,7 @@ body {
 .logo-container1 {
     width: 120px;
     height: 120px;
-    border: 10px solid rgb(210, 0, 0);
+    border: 15px solid rgb(210, 0, 0);
     border-radius: 50%;
     position: absolute;
     top: -30px;
@@ -627,6 +628,7 @@ hr {
 /*==================About the company all styles==================*/
 /*===================START==================*/
 .about-company-main-section {
+    /*border: 3px solid green;*/
     border-radius: 5px;
     padding: 50px 10px;
     width: 92%;
@@ -782,6 +784,138 @@ hr {
 /*===================END==================*/
 
 
+
+/*=============Testimonials-section styles===========*/
+/*===============START====================*/
+.testimonial-main-container {
+    /*border: 4px solid black;*/
+    margin: 80px auto 50px;
+    padding: 5px;
+    
+}
+
+.customer-review-heading {
+    /*border: 2px solid black;*/
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.custorm-review-grid {
+    /*border: 2px solid white;*/
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.customer-review {
+    border: 1px solid red;
+    border-radius: 3px;
+    vertical-align: top;
+    border-radius: 4px;
+    
+}
+
+.their-comment {
+    padding-left: 7px;
+    font-size: 13px;
+    color: red;
+    min-height: 70px;
+    overflow: hidden;
+}
+
+.name-review-stars {
+    display: flex;
+}
+
+.their-name {
+    color: red;
+    padding-left: 7px;
+}
+
+.their-name span {
+    color: white;
+    font-weight: 600;
+}
+
+.review-stars {
+    margin-left: 15px;
+}
+
+.review-stars i {
+    color: rgb(179, 218, 38);
+    font-size: 17px;
+}
+/*================END======================*/
+
+/*================Call to action buttons styles==========*/
+/*================START=====================*/
+.call-to-action {
+    /*border: 2px solid yellow;*/
+    border-radius: 4px;
+    height: 200px;
+    margin: 100px auto 30px;
+    background: url(images/our-team/location.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-heading {
+    border-radius: 5px;
+    width: 350px;
+    padding: 5px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 35px;
+    margin-right: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 148, 0.836);
+}
+
+.action-buttons {
+    
+    background-color: rgba(0, 0, 148, 0.836);
+    width: 250px;
+    border-radius: 3px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.action-buttons button {
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: rgb(210, 0, 0);
+    cursor: pointer;
+}
+
+.call-to-action .picture {
+    
+    width: 300px;
+    height: 180px;
+}
+
+.call-to-action .picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    border-bottom-left-radius: 10px;
+    
+}
+/*=================END=====================*/
 
 /*============================ Adding Responsiveness to all the section for better display in different screen sizes============================*/
 @media(max-width: 755px){
