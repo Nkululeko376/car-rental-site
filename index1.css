@@ -29,6 +29,7 @@ body {
     border-top-right-radius: 8px;
     z-index: 10;
 }
+
 .fa-bars {
     font-size: 28px;
     cursor: pointer;
@@ -109,7 +110,6 @@ body {
 
 .links-container a:hover {
     text-decoration: overline;
-  
 }
 
 .open-menu .links-container {
@@ -122,7 +122,6 @@ body {
 /*===========Header section styles===========*/
 /*============START===============*/
 .header-section {
-    
     border-radius: 7px;
     padding: 5px;
     width: 97%;
@@ -146,10 +145,12 @@ body {
     position: relative;
     box-shadow: 1px 1px 10px black;
 }
+
 .hero-headings h1 {
     margin: 0px;
     text-shadow: 2px 5px 5px black;
 }
+
 .hero-headings p {
     margin: 0px;
     font-size: 18px;
@@ -223,10 +224,9 @@ body {
 /*==========START========*/
 .featured-cars-main-container{
     margin: 50px auto;
-    width: 92%;
-    padding: 10px 5px 100px;
+    width: 99%;
+    padding: 10px 2px 100px;
     border-radius: 5px;
-    
 }
 
 .featured-cars-heading {
@@ -290,10 +290,8 @@ body {
 }
 
 .inside span {
-    
     width: 55%;
     height: 300px;
-    
 }
 
 .inside span img {
@@ -369,6 +367,7 @@ body {
 .rent-now-btn button:hover {
     background-color: black;
 }
+
 /*===========END=========*/
 
 
@@ -377,10 +376,9 @@ body {
 /*=====================START======================*/
 .search-car-form {
     width: 90%;
-    height: 350px;
-    margin: 250px auto 0px;
+    height: 500px;
+    margin: 80px auto 0px;
     padding: 2px 2px 22px;
-    position: relative;
     background-color: rgb(18, 37, 57);
     display: flex;
     border-radius: 5px;
@@ -393,19 +391,17 @@ body {
 } 
 
 .our-offers {
-    flex: 1;
     margin-left: 15px;
     padding: 10px;
-    
 }
 
-.offer-discount {
-    
+.offer-discount { 
     padding-left: 10px;
     font-size: 22px;
     font-weight: 600;
     color: white;
 }
+
 .other-offers {
     border: 1px solid red;
     border-radius: 5px;
@@ -427,7 +423,7 @@ body {
     color: white;
 }
 
-.deco-img {
+/* .deco-img {
     width: 350px;
     height: 234px;
     
@@ -436,18 +432,41 @@ body {
 .deco-img img {
     width: 100%;
     height: 90%;
-    height: fit-content;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 75%;
     border-bottom-left-radius: 70%;
     border-top-left-radius: 5px;
+} */
+
+.deco-img-main-section {
+    padding: 2px;
+    width: 98%;
+    margin: 20px auto 0px;
+    display: flex;
+    background-color: rgb(18, 37, 57);
+    border-top: 25px solid red;
+    border-bottom: 25px solid red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
 }
 
+.deco-img-container {
+    width: 400px;
+    height: 280px;
+}
+
+.deco-img-container img {
+    width: 100%;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 78%;
+    border-bottom-left-radius: 74%;
+    border-top-left-radius: 5px;
+}
 
 .form {
-    width: 80%;
+    width: 99%;
     height: fit-content;
-    margin: -6px auto 10px;
+    margin: -2px auto 10px;
     background-color: rgb(18, 37, 57);
     border-radius: 2px;
     border-bottom-left-radius: 4%;
@@ -476,16 +495,15 @@ hr {
 }
 
 .form-content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     border-radius: 5px;
     padding: 50px 20px 20px;
     height: fit-content;
 }
 
 .div11 {
-    width: 180px;
     padding: 4px;
-    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
@@ -571,8 +589,8 @@ hr {
 /*===================How it works section===================*/
 /*===================START=================*/
 .how-it-work-main-section {
-    padding: 10px;
-    width: 92%;
+    padding: 10px 0px;
+    width: 98%;
     margin: 200px auto;
     border-radius: 5px;
     background-color: rgb(18, 37, 57);
@@ -626,8 +644,8 @@ hr {
 .about-company-main-section {
     /*border: 3px solid green;*/
     border-radius: 5px;
-    padding: 50px 10px;
-    width: 92%;
+    padding: 50px 2px;
+    width: 98%;
     margin: 50px auto;
     background-color: rgb(18, 37, 57);
     border-bottom: 25px solid red;
@@ -652,9 +670,9 @@ hr {
 }
 
 .customer-img {
-    /*border: 3px solid blue;*/
     width: 300px;
     margin-right: 10px;
+    
 }
 
 .customer-img img {
@@ -663,7 +681,6 @@ hr {
 }
 
 .story-details {
-    /*border: 3px solid blue;*/
     width: 70%;
 }
 
@@ -724,32 +741,29 @@ hr {
 }
 
 .our-team-container {
-    /*border: 4px solid blueviolet;*/
-    margin: 10px -12px;
+    margin: 10px auto;
     background-color: red;
     padding: 50px 4px;
+    width: 98%;
 }
 
 .team-heading {
-    /*border: 2px solid blue;*/
     width: 250px;
     margin: auto;
     font-size: 17px;
     font-weight: 600;
     color: white;
-
+    padding-left: 20px;
 }
 
 .team-grid {
-    /*border: 2px solid white;*/
     display: grid;
     grid-template-columns: auto auto auto auto;
-    column-gap: 8px;
+    column-gap: 3px;
 }
 
 .member1 {
-    /*border: 2px solid black;*/
-    
+
 }
 
 .member1-img {
@@ -784,10 +798,8 @@ hr {
 /*=============Testimonials-section styles===========*/
 /*===============START====================*/
 .testimonial-main-container {
-    /*border: 4px solid black;*/
     margin: 80px auto 50px;
     padding: 5px;
-    
 }
 
 .customer-review-heading {
@@ -801,7 +813,6 @@ hr {
 }
 
 .custorm-review-grid {
-    /*border: 2px solid white;*/
     margin: 25px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -813,7 +824,6 @@ hr {
     border-radius: 3px;
     vertical-align: top;
     border-radius: 4px;
-    
 }
 
 .their-comment {
@@ -851,9 +861,8 @@ hr {
 /*================Call to action buttons styles==========*/
 /*================START=====================*/
 .call-to-action {
-    /*border: 2px solid yellow;*/
     border-radius: 4px;
-    height: 200px;
+    padding: 10px;
     margin: 100px auto 30px;
     background: url(images/our-team/location.jpg);
     background-position: center;
@@ -877,13 +886,13 @@ hr {
 }
 
 .action-buttons {
-    
     background-color: rgba(0, 0, 148, 0.836);
     width: 250px;
     border-radius: 3px;
     margin-right: 15px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
 }
 
@@ -899,7 +908,6 @@ hr {
 }
 
 .call-to-action .picture {
-    
     width: 300px;
     height: 180px;
 }
@@ -917,9 +925,8 @@ hr {
 /*==================All Footer section styles=============*/
 /*=================START===================*/
 footer {
-    /*border: 4px solid black;*/
-    padding: 5px;
-    width: 95%;
+    padding: 2px;
+    width: 98%;
     margin: 100px auto 0px;
     background-color: rgb(18, 37, 57);
     border-top-right-radius: 40px;
@@ -933,7 +940,6 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
-    border-bottom: 1px solid red;
 }
 
 .footer-loggo-img {
@@ -960,14 +966,12 @@ footer {
 }
 
 .footer-info-grid {
-    /*border: 2px solid black;*/
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid red;
 }
 
 .quick-links-container {
-    /*border: 2px solid white;*/
     width: 200px;
     
 }
@@ -993,7 +997,6 @@ footer {
 }
 
 .contact-us-container {
-    /*border: 2px solid teal;*/
     width: 250px;
 }
 
@@ -1038,7 +1041,7 @@ footer {
 }
 
 .follow-us-container {
-    /*border: 2px solid pink;*/
+    
     width: 400px;
     padding: 3px;
 }
@@ -1087,7 +1090,7 @@ footer {
 }
 
 .subscribe {
-    /*border: 2px solid blue;*/
+    
 }
 
 
@@ -1129,11 +1132,70 @@ footer {
 /*=================END======================*/
 
 /*============================ Adding Responsiveness to all the section for better display in different screen sizes============================*/
+@media(max-width: 1010px){
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 8px;
+    }
+
+    .action-buttons button {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 950px){
+    .div11 label {
+        font-size: 13px;
+        font-weight: 700;
+        color: red;
+    }
+
+    .form-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
+        row-gap: 18px;
+        border-radius: 5px;
+        height: fit-content;
+    }
+
+    /* .div11 {
+        padding: 4px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin: 0px;
+    } */
+}
+
+
+@media(max-width: 800px){
+    .call-to-action {
+        flex-direction: column;
+    }
+
+    .team-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 2px;
+        row-gap: 45px;
+    }
+}
+
+
 @media(max-width: 755px){
     .links-container a{
         font-size: 18px;
         margin-right: 20px;
     }
+}
+
+@media(max-width: 715px){
+    .search-car-form {
+        display: flex;
+        flex-direction: column;
+    } 
 }
 
 @media(max-width: 700px){
@@ -1166,6 +1228,55 @@ footer {
         border-bottom: 3px solid black;
      }
 
+}
+
+@media(max-width: 600px){
+    .inside {
+       flex-direction: column;
+    }
+
+    .inside span {
+        width: 90%;
+        margin: auto;
+        height: 250px;
+    }
+
+    .car-details {
+        padding: 8px;
+        width: 90%;
+        height: fit-content;
+        margin: 18px auto;
+        text-align: left;
+        background-color: rgba(6, 68, 130, 0.9);
+        border-radius: 6px;
+    }
+
+    .deco-img-main-section {
+        flex-direction: column;
+    }
+
+    .deco-img-container {
+        width: 90%;
+        height: 280px;
+        margin: auto;
+    }
+
+    .testimonial-main-container {
+        
+    
+    }
+
+    .custorm-review-grid {
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 10px;
+    }
+
+    footer {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 5px;
+    }
 }
 
 @media(max-width: 590px){
@@ -1214,6 +1325,82 @@ footer {
 
     .hero-headings p {
         font-size: 17px;
+    }
+}
+
+@media(max-width: 500px){
+    .our-story-main {
+        flex-direction: column;
+    }
+
+    .customer-img {
+        width: 88%;
+        margin: 10px auto;
+    
+    }
+
+
+    .story-details {
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+
+}
+
+@media(max-width: 490px){
+    .footer-info-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-grid {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 1px;
+    }
+
+    .member1 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .quick-links-heading, .contact-us-heading, .follow-us-heading, .copy-write-div {
+        font-size: 15px;
+    }
+
+    .quick-links-container {
+        margin: auto;
+        width: 90%;
+    }
+
+    .contact-us-container {
+        margin: 10px auto 4px;
+        width: 85%;
+        padding-left: 20px;
+    }
+
+    .follow-us-container {
+        margin: 10px auto;
+        width: 85%;
+        padding-left: 15px;
+    }
+
+    .subscribe-heading {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .subscribe button {
+        font-size: 15px;
+    }
+
+    .subscribe input {
+        font-size: 15px;
+        padding-left: 10px;
     }
 }
 
@@ -1287,6 +1474,16 @@ footer {
     }
 }
 
+@media(max-width: 437px){
+    .form-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 12px;
+        border-radius: 3px;
+        height: fit-content;
+    }
+}
+
 @media(max-width: 420px){
      .two-buttons {
         position: absolute;
@@ -1296,6 +1493,11 @@ footer {
         justify-content: center;
         align-items: center;
         padding: 7px 15px;
+    } 
+
+    .call-to-action-heading{
+        width: 90%;
+        margin: auto;
     }
 }
 
