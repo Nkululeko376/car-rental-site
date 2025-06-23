@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(210, 0, 0, 0.9);
+}
+
+.back-to-menu {
+    width: 45px;
+    font-size: 17px;
+    background-color: rgb(18, 37, 57);
+    color: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+}
+
+.back-to-menu:hover {
+    background-color: rgb(20, 56, 94);
+}
+
+
+.form-container {
+    margin: 80px auto;
+    width: 90%;
+    padding: 5px;
+}
+
+.the-inputs {
+    width: 500px;
+    padding: 80px 5px;
+    margin: 2px auto 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 37, 57);
+    border-radius: 8px;
+    border-top: 25px solid red;
+    border-bottom: 25px solid red;
+}
+
+.section-inputs {
+    /* border: 3px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 1px 3px;
+    padding: 4px;
+}
+
+.section-inputs input {
+    
+    padding: 2px 8px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-bottom: 2px solid red;
+    border-right: 3px solid rgb(22, 66, 163);
+    border-radius: 4px;
+}
+
+
+
+.login-heading {
+    /* border: 2px solid green; */
+    width: 70%;
+    margin: 13px auto;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.872);
+}
+
+.login-btn {
+    /* border: 3px solid blueviolet; */
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.login-btn button {
+    margin: 5px 0px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    color: white;
+    height: 40px;
+}
+
+.login-btn button:hover {
+    background-color: rgba(255, 0, 0, 0.929);
+}
+
+.checking-if-logged {
+    /* border: 3px solid white; */
+    padding: 3px 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checking-if-logged a {
+    font-size: 14px;
+    color: blue;
+}
+
+.checking-if-logged a:hover {
+    color: red;
+}
+
+/* .first-link {
+    margin-right: 35px;
+} */
+
+
+
+@media(max-width: 570px){
+    .login-heading {
+        font-size: 1.1em;
+    }
+
+    .form-container {
+        padding: 1px;
+    }
+
+    .the-inputs {
+        width: 95%;
+        padding: 80px 5px;
+        margin: 2px auto 15px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(18, 37, 57);
+        border-radius: 8px;
+        border-top: 25px solid red;
+        border-bottom: 25px solid red;
+    }
+}
+
+@media(max-width: 510px){
+    .section-inputs {
+        /* border: 3px solid yellow; */
+        margin: 5px 1px 2px;
+        padding: 2px;
+    }
+
+    .section-inputs input {
+        padding: 1px 5px;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        border-left: 3px solid red;
+        border-bottom: 2px solid red;
+        border-radius: 3px;
+        min-width: 100px;
+    }
+}
+
+@media(max-width: 460px){
+    .section-inputs {
+        /* border: 3px solid yellow; */
+        margin: 5px 1px 2px;
+        padding: 2px;
+        flex-direction: column;
+    }
+
+    .section-inputs input {
+        padding: 3px 14px;
+    }
+
+    .your-email {
+        margin-bottom: 7px;
+    }
+}
+
+@media(max-width: 444px){
+    .checking-if-logged {
+        /* border: 3px solid white; */
+        padding-left: 20px;
+        flex-direction: column;
+        font-size: 13px;
+    }
+}
