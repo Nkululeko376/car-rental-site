@@ -30,15 +30,30 @@ body {
     z-index: 10;
 }
 
+.my-nav-links  {
+    padding: 5px;
+}
+
+.my-nav-links a {
+    margin-right: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.my-nav-links a:hover {
+    text-decoration: underline;
+}
+
 .fa-bars {
-    font-size: 28px;
+    font-size: 22px;
     cursor: pointer;
     color: white;
+    visibility: hidden; 
 }
 
 .fa-bars:hover {
     color: hsla(0, 0%, 0%, 0.45);
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .logo-container {
@@ -57,14 +72,14 @@ body {
 }
 
 .fa-user {
-    font-size: 25px;
+    font-size: 22px;
     cursor: pointer;
     color: white;
 }
 
 .fa-user:hover{
     color: hsla(0, 0%, 0%, 0.45);
-    font-size: 27px;
+    font-size: 24px;
 }
 
 .navigation-links2 {
@@ -1227,6 +1242,15 @@ footer {
      .links-container a:hover {
         border-bottom: 3px solid black;
      }
+
+
+    .fa-bars {
+        visibility: visible; 
+    }
+
+    .my-nav-links  {
+        display: none;
+    }
 
 }
 
