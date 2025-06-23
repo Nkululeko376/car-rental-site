@@ -1301,6 +1301,10 @@ footer {
         border-top-right-radius: 20px;
         border-top-left-radius: 5px;
     }
+
+    .my-nav-links  {
+        display: none;
+    }
 }
 
 @media(max-width: 590px){
@@ -1367,6 +1371,10 @@ footer {
     .story-details {
         width: 90%;
         margin: auto;
+    }
+
+    .my-nav-links  {
+        display: none;
     }
 
 
@@ -1441,6 +1449,10 @@ footer {
         font-weight: 500;
         padding: 3px;
         border-radius: 3px;
+    }
+
+    .my-nav-links  {
+        display: none;
     }
 }
 
@@ -1523,6 +1535,10 @@ footer {
         width: 90%;
         margin: auto;
     }
+
+    .my-nav-links  {
+        display: none;
+    }
 }
 
 @media(max-width: 395px){
@@ -1587,6 +1603,10 @@ footer {
 
     .hero-headings p span {
         font-size: 15px;
+    }
+
+    .my-nav-links  {
+        display: none;
     }
 }
 
